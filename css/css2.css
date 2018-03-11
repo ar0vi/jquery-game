@@ -1,0 +1,166 @@
+body{
+    font-family: 'VT323', monospace;    
+    color: white;
+    background-image: url(../images/stars.png);
+    }
+    
+    @keyframes textcolors {
+        33%  {color: magenta;}
+        66%  {color: yellow;}
+        100%  {color: cyan;}
+    }
+    
+    header{
+    background-color: black;
+    height: 85px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    border-bottom-color: cyan;
+    border-bottom-style: dashed;
+    border-bottom-width: 5px;
+    margin-bottom: 50px;
+    animation-name: textcolors;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    z-index: 100;
+    }
+    
+    h1{
+        font-size: 42px;
+    }
+    
+    wrapper{
+    width: 1080px;
+    }
+    
+    #selectBox{
+    margin-top: 120px;
+    height: 195px;
+    border-color: yellow;
+    border-style: dashed;
+    border-width: 5px;
+    }
+    
+    
+    .buttonselect{
+    display: inline-block;
+    width: 200px;
+    height: 140px;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    background-color: transparent;
+    border: 1px solid cyan;
+    }
+    
+    .imagebox{
+        width: 180px;
+        height: 100px;
+        background-color: transparent;
+        }
+        
+     .selectImage{
+        height: 100px;
+        width:100px;    
+        display: block;
+        margin-left: 40px;
+        margin-right: 40px;
+        padding-top: 10px;
+        }
+    
+    .buttonText{
+        color: black;
+        font-size: 20px;
+        font-family: 'VT323', monospace; 
+        background-color: cyan;
+    }
+    
+    
+    #battlefield{
+    width: 960px;
+    height: 550 px;
+    margin-top: 50px;
+    margin-left: 60px;
+    border: 1px solid white;
+    }
+    
+    #attackZone{
+        margin-top: 30px;
+        margin-bottom: 50px;
+        width: 720px;
+        height: 500px;
+        border-color: magenta;
+        border-style: dashed;
+        border-width: 5px;   
+    }
+    
+    #player{
+        height: 450px;
+        width: 280px;
+        margin-top: 25px;
+        margin-bottom: 25px;
+        margin-left: 20px;
+        margin-right: 20px;
+        border: 1px solid white;
+        float: left;
+    }
+
+    .attackButton{
+    width: 60px;
+    height: 60px;
+    border-color: yellow;
+    color: yellow;
+
+    }
+
+    .attackButton:hover{
+        background-color: yellow;
+        color: black;
+        border-color: yellow;
+    }
+
+    .attackButton:active{
+        background-color: yellow;
+        color: black;
+        border-color: yellow;
+    }
+
+    #enemy{
+        height: 450px;
+        width: 280px;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 25px;
+        margin-bottom: 25px;
+        border: 1px solid white;
+        display: inline-block;
+    }
+    
+    #bench{
+        margin-top: 30px;
+        margin-bottom: 50px;
+        width: 175px;
+        height: 500px;
+        border-color: cyan;
+        border-style: dashed;
+        border-width: 5px;   
+        float: right;
+    }
+    
+    #graveYard{
+        clear: both;
+        width: 960px;
+        height: 150px;
+        border-color: yellow;
+        border-style: dashed;
+        border-width: 5px;
+        padding:5px;
+    }
+    
+    

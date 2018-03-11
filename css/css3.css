@@ -1,0 +1,170 @@
+body{
+    font-family: 'VT323', monospace;    
+    color: white;
+    background-image: url(../images/stars.png);
+    }
+    
+    @keyframes textcolors {
+        33%  {color: magenta;}
+        66%  {color: yellow;}
+        100%  {color: cyan;}
+    }
+    
+    header{
+    background-color: black;
+    height: 85px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    border-bottom-color: cyan;
+    border-bottom-style: dashed;
+    border-bottom-width: 5px;
+    margin-bottom: 50px;
+    animation-name: textcolors;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    z-index: 100;
+    }
+    
+    h1{
+        font-size: 42px;
+    }
+    
+    #selectBox{
+    margin-top: 120px;
+    height: 195px;
+    border-color: yellow;
+    border-style: dashed;
+    border-width: 5px;
+    padding: 5px;
+    }
+
+    
+.ShipBtn{
+    width: 185px;
+    height: 175px;
+    border: 1px solid cyan;
+    font-family: 'VT323', monospace;
+    background-color: transparent;
+    padding: 0px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+
+.btnImg{
+    height: 110px;
+    width:110px; 
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+
+.bSpan1{
+    height: 120px;
+    width: 120px;
+    margin-bottom: 10px;
+}
+
+.bSpan2{
+width: 184px;
+height: 50px;
+font-size: 22px;
+line-height: 22px;
+background-color: cyan;
+color: black;  
+border: none;
+display: inline-block;
+}
+
+
+#player{
+        height: 500px;
+        margin-top: 25px;
+        margin-bottom: 25px;
+        margin-left: 20px;
+        margin-right: 20px;
+        border-color: magenta;
+        border-style: dashed;
+        border-width: 5px;  
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        float: left;
+}
+
+#buttonBox{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+}
+
+.attackButton{
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    border-color: yellow;
+    color: yellow;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+    .attackButton:hover{
+        background-color: yellow;
+        color: black;
+        border-color: yellow;
+    }
+
+    .attackButton:active{
+        background-color: yellow;
+        color: black;
+        border-color: yellow;
+    }
+
+
+    #enemy{
+        height: 500px;
+        margin-top: 25px;
+        margin-bottom: 25px;
+        margin-left: 20px;
+        margin-right: 20px;
+        border-color: magenta;
+        border-style: dashed;
+        border-width: 5px; 
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    
+    #bench{
+        margin-top: 25px;
+        margin-bottom: 50px;
+        margin-left: 40px;
+        height: 500px;
+        border-color: cyan;
+        border-style: dashed;
+        border-width: 5px;   
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        float: right;
+    }
+    
+    #graveYard{
+        clear: both;
+        height: 150px;
+        border-color: yellow;
+        border-style: dashed;
+        border-width: 5px;
+        padding:5px;
+    }
+    
+    
