@@ -72,7 +72,7 @@ body{
 
 .bSpan2{
 width: 184px;
-height: 50px;
+height: 25px;
 font-size: 22px;
 line-height: 22px;
 background-color: cyan;
@@ -81,6 +81,16 @@ border: none;
 display: inline-block;
 }
 
+.bSpan3{
+    width: 184px;
+    height: 25px;
+    line-height: 22px;
+    font-size: 22px;
+    background-color: cyan;
+    color: black;  
+    border: none;
+    display: inline-block;
+    }
 
 #player{
         height: 500px;
@@ -151,20 +161,24 @@ display: inline-block;
         border-color: cyan;
         border-style: dashed;
         border-width: 5px;   
-        display: flex;
         align-items: center;
         justify-content: center;
         text-align: center;
-        float: right;
+    }
+
+    .benchItem{
+        margin-top: 20px;
+        margin-bottom: 20px;
     }
     
     #graveYard{
-        clear: both;
-        height: 150px;
+        margin-top: 75px;
+        height: 220px;
         border-color: yellow;
         border-style: dashed;
         border-width: 5px;
-        padding:5px;
+        padding: 5px;
+        justify-content: center;
     }
     
     
